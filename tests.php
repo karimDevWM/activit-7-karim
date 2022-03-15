@@ -54,18 +54,18 @@ echo " -> fonction trouver_plus_proche_de_zero: OK\n";
 
 // Oups, cette fonction n'a pas de nom... Serez-vous trouver ce qu'elle doit
 // faire à partir des tests unitaires ?
-assert(sans_nom(1) == 1);
-assert(sans_nom(2) == 4);
-assert(sans_nom(5) == 25);
-assert(sans_nom(11) == 121);
-echo " -> fonction sans_nom: OK\n";
+assert(productNumber(1) == 1);
+assert(productNumber(2) == 4);
+assert(productNumber(5) == 25);
+assert(productNumber(11) == 121);
+echo " -> productNumber: OK\n";
 
 
 // Encore une fonction bien mystérieuse !
-assert(mysterieuse(14) == "n");
-assert(mysterieuse(20) == "t");
-assert(mysterieuse(11) == "k");
-echo " -> fonction mysterieuse: OK\n";
+assert(matchAlphabetIndex(14) == "n");
+assert(matchAlphabetIndex(20) == "t");
+assert(matchAlphabetIndex(11) == "k");
+echo " -> fonction matchAlphabetIndex: OK\n";
 
 
 // Conclusion
