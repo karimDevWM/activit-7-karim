@@ -5,7 +5,7 @@ function trouver_min($tableau) {
     $min = $tableau[2];
 
     foreach ($tableau as $element) {
-        if ($element<$min) {
+        if ($element<=$min) {
             $min = $element;
         }
     }
