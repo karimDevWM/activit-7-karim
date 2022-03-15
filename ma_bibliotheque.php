@@ -2,7 +2,7 @@
 // Fonction pour trouver la valeur minimale d'un tableau
 // TODO: Corriger l'erreur dans la fonction
 function trouver_min($tableau) {
-    $min = $tableau[2];
+    $min = $tableau[0];
 
     foreach ($tableau as $element) {
         if ($element<=$min) {
